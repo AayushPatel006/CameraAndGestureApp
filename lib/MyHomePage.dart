@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
         builder: (BuildContext context) {
           return AlertDialog(
             backgroundColor: Colors.blue,
-            shape: StadiumBorder(),
+            shape: ContinuousRectangleBorder(),
             content: SingleChildScrollView(
                 child: ListBody(
               children: [
